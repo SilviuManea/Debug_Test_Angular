@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularDebug';
+  username: String = '';
+  password: String = '';
+
+  login(){
+    console.log('logging in');
+  }
 }
